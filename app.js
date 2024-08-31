@@ -21,7 +21,7 @@ connectMongoDB();
 
 // MiddleWare
 app.use(express.json());
-app.use(appRoutes);
+app.use("/api",appRoutes);
 
 setInterval(async () => {
   try {
