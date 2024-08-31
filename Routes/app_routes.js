@@ -1,8 +1,11 @@
 const Router = require('express').Router();
 
-const {saveAndUpdateTransactions} = require('../controllers/transactionControllers');
+const {
+  saveAndUpdateTransactions,
+  getTotalExpenses,
+} = require("../controllers/transactionControllers");
 
 Router.get('/transactions/:address', saveAndUpdateTransactions);
-
+Router.get("/expenses/:address", getTotalExpenses);
 
 module.exports = Router;
