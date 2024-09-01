@@ -34,7 +34,7 @@ setInterval(async () => {
   } catch (error) {
     console.error("Failed to update Ethereum price", error.message);
   }
-}, 60 * 1000); // 10 sec
+}, 10*60*1000); // 10 min
 
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`);
