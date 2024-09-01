@@ -16,7 +16,7 @@ This Node.js application provides routes to fetch Ethereum transactions and pric
 1. **Clone the Repository:**
 
    ```bash
-   https://github.com/malpani2003/Koinx_Backend_Assignememt.git
+   git clone https://github.com/malpani2003/Koinx_Backend_Assignememt.git
    cd Koinx_Backend_Assignememt
    ```
 
@@ -42,7 +42,7 @@ This Node.js application provides routes to fetch Ethereum transactions and pric
 ## API Endpoints
 
 ### 1. User Expenses Route
-Example: https://koinx-backend-assignememt.onrender.com/api/expenses/0xce94e5621a5f7068253c42558c147480f38b5e0
+Example: https://koinx-backend-assignememt.onrender.com/api/expenses/0xce94e5621a5f7068253c42558c147480f38b5e0d
 
 ### 2. User Transactions Route
 ```http
