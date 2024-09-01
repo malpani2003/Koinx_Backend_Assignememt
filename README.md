@@ -3,6 +3,7 @@
 This Node.js application provides routes to fetch Ethereum transactions and price data and also calculates user expenses based on Ethereum transactions.
 
 - Task  : https://koinx.notion.site/Take-home-Assignment-Backend-Intern-3c4296a3e291463db461eaa776c56858
+- Youtube Video Link : https://youtu.be/z6oRbIxfLrc
 
 ## Requirements
 
