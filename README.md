@@ -39,4 +39,21 @@ This Node.js application provides routes to fetch Ethereum transactions and pric
    ```bash
    npm start
    ```
+## API Endpoints
+
+### 1. User Expenses Route
+Example: https://koinx-backend-assignememt.onrender.com/api/expenses/0xce94e5621a5f7068253c42558c147480f38b5e0
+
+### 2. User Transactions Route
+```http
+GET /api/transactions/:address
+```
+Example: https://koinx-backend-assignememt.onrender.com/api/transactions/0xce94e5621a5f7068253c42558c147480f38b5e0d
+
+### 3. Home Route
+```http
+GET /api/home
+```
+Example: https://koinx-backend-assignememt.onrender.com/api/home
+
 - Author : Pranav Malpani
