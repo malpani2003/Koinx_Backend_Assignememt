@@ -26,7 +26,7 @@ async function getTotalExpenses(req, res) {
 
     let totalExpenses = 0;
     transactions.forEach((element) => {
-      totalExpenses += (element.gasPrice * element.gasPrice) / 1e18;
+      totalExpenses += (element.gasPrice * element.gasUsed) / 1e18;
     });
 
     res.status(200).json({
